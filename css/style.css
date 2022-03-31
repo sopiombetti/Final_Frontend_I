@@ -1,0 +1,461 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* HEADER */
+
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4% 5% 7% 5%;
+}
+
+#navegador{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 30vw;
+    color: rgb(35, 44, 81);
+}
+
+#navegador a:hover{
+    color: rgba(35, 44, 81, 0.527);
+}
+
+#hamburguesa {
+    display: none;
+}
+
+/* INTRODUCCIÓN */
+
+#introducción{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.textoIntro{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 10vw 10vh 7vw;
+}
+
+.textoIntro p{
+    display: flex;
+    margin: 0vh 10vw 5vh 0vw;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(35, 44, 81);
+    font-weight: 700;
+    margin-top: 0vh;
+}
+
+.botón{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    width: 130px;
+    height: 35px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+
+.botón:hover {
+    background-color: rgba(242, 95, 58, 0.5);
+}
+
+/* PRINCIPAL */
+
+#principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textoPrincipal{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 12%;
+}
+
+.textoPrincipal h3{
+    font-size: 35px;
+    color: rgb(35, 44, 81);
+}
+
+.textoPrincipal p{
+    display: flex;
+    margin-right: 5vw;
+}
+
+.itemsPrincipal{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.número{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    width: 60px;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+}
+
+.título{
+    display: flex;
+    position: relative;
+    left: 18%;
+    bottom: 23%;
+    font-weight: bold;
+}
+
+.descripción{
+    display: flex;
+    position: relative;
+    left: 18%;
+    bottom: 15%;
+    margin-right: 10vw;
+    color: rgb(143, 148, 167);
+}
+
+/* COMENTARIOS */
+
+#comentarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#comentarios h3{
+    display: flex;
+    font-size: 30px;
+    color: rgb(35, 44, 81);
+}
+
+.cardsContenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardsContenedor img {
+    width: 70px;
+}
+
+.cardsContenedor p{
+    display: flex;
+    color: rgb(143, 148, 167);
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+/*Separé las últimas dos cards en otra clase para en la media querie ponerles display none */
+
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+/* ZONA NARANJA */
+
+#zonaNaranja {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 95, 58);
+    margin-top: 10%;
+    height: 224px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+#zonaNaranja h2 {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    width: 35%;
+}
+
+.botónBlanco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(242, 95, 58);
+    border-radius: 50px;
+    width: 130px;
+    height: 35px;
+    padding: 10px 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+
+.botónBlanco:hover{
+    background-color: rgba(255, 255, 255, 0.600);
+}
+
+/* FOOTER */
+
+#pieDePágina {
+    display: flex;
+    background-color: rgb(29, 30, 37);
+    justify-content: space-around;
+    height: 247px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.iconos{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.items1{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    height: 110px;
+    justify-content: space-between;
+    color: white;
+}
+
+.items1 a:hover{
+    color: rgb(242, 95, 58);
+}
+
+.items2{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    height: 85px;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+    bottom: 7px;
+}
+
+.items2 a:hover{
+    color: rgb(242, 95, 58);
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    justify-content: space-between;
+    margin-top: 2%;
+    align-items: flex-end;
+}
+
+.final p{
+    color:rgb(143, 148, 167);
+}
+
+form{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.final input{
+    display: flex;
+    position: absolute;
+    right: 180px;
+    border-radius: 50px;
+    height: 30px;
+}
+
+/* le puse position absolute al input porque sino no se me acomodaba bien (no sé por qué) */
+
+.final button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 95, 58);
+    color: white;
+    border-radius: 50px;
+    width: 60px;
+    height: 30px;
+}
+
+.copyright{
+    display: none;
+}
+
+@media (max-width: 376px){
+    body{
+        width: 375px;
+    }
+    
+    nav{
+        display: none;
+    }
+
+    .encabezado a{
+        display: none;
+    }
+
+    .encabezado{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: 10%;
+    }
+    #hamburguesa{
+        display: flex;
+    }
+
+    #introducción{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #introducción img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .textoIntro p{
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .textoIntro a{
+        margin-left: 60px;
+    }
+
+    #principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemsPrincipal{
+        display: flex;
+        margin: 0% 5%;
+    }
+
+    .textoPrincipal h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .textoPrincipal p{
+        text-align: center;
+    }
+
+    .título{
+        display: flex;
+        font-size: 14px;
+        position: relative;
+        bottom: 45px;
+        right: 10px;
+    }
+
+    .descripción{
+        display: flex;
+        font-size: 14px;
+        position: relative;
+        bottom: 45px;
+        right: 10px;
+        width: 70%;
+    }
+
+    .número{
+        display: flex;
+        height: 30px;
+        width: 50px;
+    }
+
+    .cards1{
+        display: none;
+    }
+
+    .botón{
+        width: 110px;
+        height: 25px;
+    }
+
+    #zonaNaranja{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        align-items: center;
+        padding-bottom: 10%;
+        justify-content: space-around;
+    }
+
+    #zonaNaranja h2{
+        font-size: 27px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .botónBlanco{
+        width: 110px;
+        height: 25px;
+    }
+
+    #pieDePágina{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        height: 450px;
+    }
+
+    .items{
+        display: flex;
+        justify-content: space-around;
+        width: 90vw;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+
+    .iconos{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 90px;
+    }
+
+    .copyright{
+        display: flex;
+        color:rgb(143, 148, 167);
+    }
+
+    .final p{
+        display: none;
+    }
+}
